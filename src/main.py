@@ -55,7 +55,7 @@ def main():
             "host": "localhost",
             "dbname": "deprem",
             "user": "postgres",
-            "password": "bilgem",
+            "password": "password",
             "port": 5433
         }
         connection_message = db_assistant.connect(db_params)
